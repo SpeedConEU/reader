@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./js/index.js"></script>
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Donation Reader</title>
+</head>
+
+<body>
+    <h1>Donation Reader Dashboard (now in realtime:))</h1>
+    <h2>Donations</h2>
+    <table style="width: 100%">
+        <thead>
+            <tr>
+                <th>Received</th>
+                <th>Name</th>
+                <th>Amount</th>
+                <th>Comment</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="table-body"></tbody>
+    </table>
+    <br>
+    <h2>Bids</h2>
+    <table style="width: 100%">
+        <thead>
+            <tr>
+                <th>Parent Bid</th>
+                <th>Bid Text</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="table-body-bids"></tbody>
+    </table>
+    <div class="error" id="error-message"></div>
+</body>
+
+</html>

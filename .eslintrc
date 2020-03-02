@@ -1,0 +1,16 @@
+{
+    "env": {
+        "node": true,
+        "mocha": true,
+        "jquery": true
+    },
+    "extends": "eslint",
+    "rules": {
+        "semi": "error",
+        "strict": "off",
+        "quotes": ["error", "single"],
+        "node/no-unpublished-require": "off",
+        "require-jsdoc": "off",
+        "no-console": "off"
+    }
+}
